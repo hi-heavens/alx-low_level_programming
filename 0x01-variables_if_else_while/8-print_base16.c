@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
  * main - Entry point
- * Description: A program that prints all the numbers of base 16 
- * in lowercase, to only use the putchar function 
+ * Description: A program that prints all the numbers of base 16
+ * in lowercase, to only use the putchar function
  * and just three times
  * Return: Always 0 (Success)
  */
