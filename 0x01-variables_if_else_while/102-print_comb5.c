@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - Entry point
- * Description: A program that prints all possible combinations of 
+ * Description: A program that prints all possible combinations of
  * two two-digit numbers with guidelines
  * Return: Always 0 (Success)
  */
