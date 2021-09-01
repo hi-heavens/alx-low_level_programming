@@ -11,14 +11,14 @@
  */
 int _isalpha(int c)
 {
-        int letter = isalpha(c);
+	int letter = isalpha(c);
 
-        if (letter != 0)
-        {
-                return (1);
-        }
-        else
-        {
-                return (0);
-        }
+	if (letter != 0)
+	{
+		return (1);
+	}
+	else
+	{
+		return (0);
+	}
 }
