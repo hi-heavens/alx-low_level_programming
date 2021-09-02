@@ -19,14 +19,13 @@ _putchar('\n');
 else
 {
 int j = 1;
-
 while (j <= n)
 {
 int k = 1;
 while (k < j)
 {
-        _putchar(' ');
-        k++;
+_putchar(' ');
+k++;
 }
 _putchar('\\');
 _putchar('\n');
