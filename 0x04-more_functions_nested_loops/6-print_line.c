@@ -13,19 +13,20 @@
 */
 void print_line(int n)
 {
-        if (n == 0)
-        {
-                _putchar('\n');
-        }
-        else
-        {
-                int j;
+	if (n == 0)
+	{
+		_putchar('\n');
+	}
+	else
+	{
+		int j;
 
-                while (j <= n)
-                {
-                        _putchar('_');
-                        j++;
-                }
-                _putchar('\n');
-        }
+		while (j >= n)
+		{
+			_putchar('_');
+			j++;
+		}
+
+		_putchar('\n');
+	}
 }
