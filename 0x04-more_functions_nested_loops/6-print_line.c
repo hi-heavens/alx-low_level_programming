@@ -19,7 +19,7 @@ void print_line(int n)
 	}
 	else
 	{
-		int j;
+		int j = 1;
 
 		while (j <= n)
 		{
