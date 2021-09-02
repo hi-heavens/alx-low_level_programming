@@ -31,6 +31,6 @@ while (k < j)
 _putchar('\\');
 _putchar('\n');
 j++;
-}	
+}
 }
 }
