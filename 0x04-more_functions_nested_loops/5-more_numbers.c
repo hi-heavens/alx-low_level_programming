@@ -20,14 +20,14 @@ void more_numbers(void)
 		{
 			if (j > 9)
 			{
-				k = j / 10;
+				/*i = i / 10;
 				l = j % 10;
-				_putchar(k + '0');
-				_putchar(l + '0');
+				  _putchar(k + '0');*/
+				_putchar((i / 10) + '0');
 			}
 			else
 			{
-				_putchar(j + '0');
+				_putchar((i % 10) + '0');
 			}
 			j++;
 		}
