@@ -9,11 +9,11 @@
  */
 void print_numbers(void)
 {
-        int i;
-	for(i = 0; i < 10; i++)
+	int i;
+
+	for (i = 0; i < 10; i++)
 	{
-		_putchar(i);
+		printf("%i", i);
 	}
 	_putchar('\n');
-
 }
