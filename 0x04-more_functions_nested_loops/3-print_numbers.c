@@ -14,7 +14,7 @@ void print_numbers(void)
 
 	for (i = 0; i <= 9; i++)
 	{
-		printf("%i", i);
+		_putchar(i + '0');
 	}
 	_putchar('\n');
 }
