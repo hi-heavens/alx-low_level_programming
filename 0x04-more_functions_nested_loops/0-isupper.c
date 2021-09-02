@@ -2,7 +2,7 @@
 
 /**
  * _islower - Entry point
- * Description - A function that checks for lowercase character
+ * Description - A function that checks for upper character
  * *@c: the function accepts an input saved into c
  * Return: Always 0 (Success)
  */
