@@ -2,7 +2,7 @@
 #include <ctype.h>
 
 /**
- * _islower - Entry point
+ * _isdigit - Entry point
  * Description - function that checks for a digit (0 through 9)
  * *@c: the function accepts an input saved into c
  * Return: Always 0 (Success)
