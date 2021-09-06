@@ -2,7 +2,8 @@
 
 /**
  * _puts - Entry point
- * Description - A function that prints a string, followed by a new line, to stdout
+ * Description - A function that prints a string,
+ * followed by a new line, to stdout
  * *@str: the function accepts an input saved into str
  * Return: Always 0 (Success)
  */
