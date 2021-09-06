@@ -8,13 +8,12 @@
 | 3       | A function that prints a string, followed by a new line, to stdout              | 3-puts.c        |
 | 4       | A function that prints a string, in reverse, followed by a new line             | 4-print_rev.c   |
 | 5       | A function that reverses a string                                               | 5-rev_string.c  |
-| 6       |                                                                                 |                 |
+| 6       | A function that prints every other character of a string, starting with...      | 6-puts2.c       |
 | 7       |                                                                                 |                 |
 | 8       |                                                                                 |                 |
 | 9       |                                                                                 |                 |
 | 10      |                                                                                 |                 |
 | 11      |                                                                                 |                 |
-| 12      |                                                                                 |                 |
 
 ---
 
