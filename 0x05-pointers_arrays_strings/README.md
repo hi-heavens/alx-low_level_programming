@@ -6,6 +6,15 @@
 | 1       | A function that swaps the values of two integers                                | 1-swap.c        |
 | 2       | A function that returns the length of a string                                  | 2-strlen.c      |
 | 3       | A function that prints a string, followed by a new line, to stdout              | 3-puts.c        |
+| 4       | A function that prints a string, in reverse, followed by a new line             | 4-print_rev.c   |
+| 5       | A function that reverses a string                                               | 5-rev_string.c  |
+| 6       |                                                                                 |                 |
+| 7       |                                                                                 |                 |
+| 8       |                                                                                 |                 |
+| 9       |                                                                                 |                 |
+| 10      |                                                                                 |                 |
+| 11      |                                                                                 |                 |
+| 12      |                                                                                 |                 |
 
 ---
 
