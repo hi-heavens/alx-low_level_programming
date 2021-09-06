@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * rev_string - Entry point
+ * puts_half - Entry point
  * Description - A function should print the second half of the string
  * *@str: the function accepts an input saved into str
  * Return: Always 0 (Success)
