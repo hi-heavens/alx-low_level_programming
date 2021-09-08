@@ -18,6 +18,6 @@
 
 ---
 
-> This is just me trying some features with the README file
+> This is a summary page of the project.
 
 ---
