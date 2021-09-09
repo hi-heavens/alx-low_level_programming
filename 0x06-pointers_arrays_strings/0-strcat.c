@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strcat - Entry point
+ * *_strcat - Entry point
  * Description - A function that takes a pointer to an int
  * as parameter and updates the value it points to to 98
  * *@dest: the function accepts an input saved into dest
