@@ -1,20 +1,19 @@
-# 0x07. C - Even more pointers, arrays and strings
+# 0x08. C - Recursion
 
-| Task no | Description                                                                        | File name            |
-| ------- | ---------------------------------------------------------------------------------- | -------------------- |
-| 0       | A function that fills memory with a constant byte                                  | 0-memset.c           |
-| 1       | A function that copies memory area                                                 | 1-memcpy.c           |
-| 2       | A function that locates a character in a string                                    | 2-strchr.c           |
-| 3       | A function that gets the length of a prefix substring                              | 3-strspn.c           |
-| 4       | A function that searches a string for any of a set of bytes                        | 4-strpbrk.c          |
-| 5       | A function that locates a substring                                                | 5-strstr.c           |
-| 6       | A function that prints the chessboard                                              | 7-print_chessboard.c |
-| 7       | A function that prints the sum of the two diagonals of a square matrix of integers | 8-print_diagsums.c   |
-| 8       |                                                                                    |                      |
-| 9       |                                                                                    |                      |
+| Task no | Description                                                                          | File name               |
+| ------- | ------------------------------------------------------------------------------------ | ----------------------- |
+| 0       | A function that prints a string, followed by a new line                              | 0-puts_recursion.c      |
+| 1       | A function that prints a string in reverse                                           | 1-print_rev_recursion.c |
+| 2       | A function that returns the length of a string                                       | 2-strlen_recursion.c    |
+| 3       | A function that returns the factorial of a given number                              | 3-factorial.c           |
+| 4       | A function that returns the value of x raised to the power of y                      | 4-pow_recursion.c       |
+| 5       | A function that returns the natural square root of a number                          | 5-sqrt_recursion.c      |
+| 6       | A function that returns 1 if the input integer is a prime number, otherwise return 0 | 6-is_prime_number.c     |
+| 7       | A function that returns 1 if a string is a palindrome and 0 if not                   | 100-is_palindrome.c     |
+| 8       | a function that compares 2 strings                                                   | 101-wildcmp.c           |
 
 ---
 
-> So I made a POINTER that POINTS to a POINTER that POINTS to a POINTER so you can DEREFERENCE a DEREFERENCE to a DEREFERENCE
+> WE NEED TO GO..............DEEPER
 
 ---
