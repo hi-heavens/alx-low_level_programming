@@ -10,7 +10,7 @@
 | 5       | A function that returns the natural square root of a number                          | 5-sqrt_recursion.c      |
 | 6       | A function that returns 1 if the input integer is a prime number, otherwise return 0 | 6-is_prime_number.c     |
 | 7       | A function that returns 1 if a string is a palindrome and 0 if not                   | 100-is_palindrome.c     |
-| 8       | a function that compares 2 strings                                                   | 101-wildcmp.c           |
+| 8       | A function that compares 2 strings                                                   | 101-wildcmp.c           |
 
 ---
 
