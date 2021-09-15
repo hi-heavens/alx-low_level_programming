@@ -81,11 +81,7 @@ char *move(char *s2)
 */
 char _move;
 if (*s2 == '*')
-{
-        _move = move(s2 + 1);
-        return (_move);
-}
-
+return (move(s2 + 1));
 else
 return (s2);
 }
