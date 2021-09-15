@@ -15,5 +15,7 @@ int is_not_prime(int n, int i);
 int is_square_root(int num, int squared);
 int check_pal(char *s, int i, int len);
 int _strlen_recursion(char *s);
+int bandersnatch(char *s1, char *s2);
+char *move(char *s2);
 
 #endif
