@@ -1,10 +1,10 @@
 #include "main.h"
 /**
-* is_prime_check - Entry point
+* is_not_prime - Entry point
 * Description - A function that checks for
 * non-prime number and return 1
 * *@n: the function accepts an input saved into n
-* *@f: the function accepts a pointer saved into f
+* *@i: the function accepts a pointer saved into i
 * Return: (0)
 */
 int is_not_prime(int n, int i)
