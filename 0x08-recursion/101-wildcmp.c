@@ -79,8 +79,13 @@ char *move(char *s2)
 * the first char past all *
 * @s2: input
 */
+char _move;
 if (*s2 == '*')
-return (move(s2 + 1));
+{
+        _move = move(s2 + 1);
+        return (_move);
+}
+
 else
 return (s2);
 }
