@@ -13,5 +13,7 @@ int is_palindrome(char *s);
 int wildcmp(char *s1, char *s2);
 int is_not_prime(int n, int i);
 int is_square_root(int num, int squared);
+int check_pal(char *s, int i, int len);
+int _strlen_recursion(char *s);
 
 #endif
