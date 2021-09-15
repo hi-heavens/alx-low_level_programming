@@ -69,7 +69,7 @@ return (bandersnatch(s1 + 1, s2));
 char *move(char *s2)
 {
 /**
-* if the current char is a *
+* Description - if the current char is a *
 * increment s2 by 1
 * else return the address of
 * the first char past all *
