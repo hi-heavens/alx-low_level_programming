@@ -48,6 +48,7 @@ return (0);
 int bandersnatch(char *s1, char *s2)
 {
 /**
+* Description - 
 * if we reached the end of s1, return 0
 * if chars are equal, return the return value of wildcmp()
 * increment s1 by 1, not s2
@@ -73,6 +74,7 @@ char *move(char *s2)
 * increment s2 by 1
 * else return the address of
 * the first char past all *
+* @s2: \
 */
 if (*s2 == '*')
 return (move(s2 + 1));
