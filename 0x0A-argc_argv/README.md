@@ -14,7 +14,7 @@
 > I have two options
 
 1. Be good
-   > or
+   or
 2. Be very good
 
 ---
