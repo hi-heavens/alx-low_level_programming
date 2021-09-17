@@ -1,4 +1,4 @@
-#include "main.h"
+#include <stdio.h>
 /**
 * main - Entry point
 * Description - A program that prints its name, followed by a new line
@@ -8,6 +8,9 @@
 */
 int main(int argc, char *argv[])
 {
-        char programName = argv[0];
-        printf("%s", programName);
+
+char *programName = argv[0];
+printf("%s", programName);
+
+return (0);
 }
