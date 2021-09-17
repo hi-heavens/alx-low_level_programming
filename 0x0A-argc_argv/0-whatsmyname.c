@@ -6,11 +6,11 @@
 * *@argv: the function accepts an input saved into argv
 * Return: Success (0)
 */
-int main(int argc, char *argv[])
+int main(int __attribute__((__unused__)) argc, char *argv[])
 {
+	char *programName = argv[0];
 
-char *programName = argv[0];
-printf("%s", programName);
+	printf("%s\n", programName);
 
-return (0);
+	return (0);
 }
