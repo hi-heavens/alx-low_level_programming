@@ -11,10 +11,10 @@
 
 ---
 
-> I have two options
+> **I have two options**
 
 1. Be good
-   or
+
 2. Be very good
 
 ---
