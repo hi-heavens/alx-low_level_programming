@@ -9,25 +9,25 @@
 */
 int main(int argc, char *argv[])
 {
-int num1, num2, multiply;
+	int num1, num2, multiply;
 
-if (argc != 3)
-{
-printf("%s", "Error\n");
-return (1);
-}
-else
-{
-char *argument2 = argv[1];
-char *argument3 = argv[2];
+	if (argc != 3)
+	{
+		printf("%s", "Error\n");
+		return (1);
+	}
+	else
+	{
+		char *argument2 = argv[1];
+		char *argument3 = argv[2];
 
-num1 = atoi(argument2);
-num2 = atoi(argument3);
+		num1 = atoi(argument2);
+		num2 = atoi(argument3);
 
-multiply = num1 * num2;
+		multiply = num1 * num2;
 
-printf("%d\n", multiply);
+		printf("%d\n", multiply);
 
-return (0);
-}   
+		return (0);
+	}
 }
