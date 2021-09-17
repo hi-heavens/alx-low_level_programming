@@ -11,7 +11,7 @@
 
 ---
 
-> **I have two options**
+> **I HAVE TWO(2) OPTIONS**
 
 1. Be good
 
