@@ -6,11 +6,11 @@
 * *@argv: the function accepts an input saved into argv
 * Return: Success (0)
 */
-int main(int argc, char *argv[])
+int main(int argc, char __attribute__((__unused__)) *argv[])
 {
+	int numberOfArgument = argc - 1;
 
-int numberOfArgument = argc;
-printf("%d", numberOfArgument);
+	printf("%d\n", numberOfArgument);
 
-return (0);
+	return (0);
 }
