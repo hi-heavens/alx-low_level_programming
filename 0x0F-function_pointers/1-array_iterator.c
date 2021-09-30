@@ -1,6 +1,6 @@
 #include "function_pointers.h"
 /**
-* print_name - Entry point
+* array_iterator - Entry point
 * Description - A function that executes a function given
 * as a parameter on each element of an array
 * *@array: the function accepts an input saved into array
