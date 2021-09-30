@@ -1,13 +1,13 @@
 # 0x0F. C - Function pointers
 
-| Task no | Description                                                   | File name     |
-| ------- | ------------------------------------------------------------- | ------------- |
-| 0       | A Define a new type struct dog with the following elements    | dog.h         |
-| 1       | A function that initialize a variable of type struct dog      | 1-init_dog.c  |
-| 2       | A function that prints a struct dog                           | 2-print_dog.c |
-| 3       | Define a new type dog_t as a new name for the type struct dog | dog.h         |
-| 4       | A function that creates a new dog                             | 4-new_dog.c   |
-| 5       | A function that frees dogs                                    | 5-free_dog.c  |
+| Task no | Description                                                                          | File name          |
+| ------- | ------------------------------------------------------------------------------------ | ------------------ |
+| 0       | A function that prints a name                                                        | 0-print_name.c     |
+| 1       | A function that executes a function given as a parameter on each element of an array | 1-array_iterator.c |
+| 2       | A function that searches for an integer                                              | 2-int_index.c      |
+| 3       | A program that performs simple operations                                            | dog.h              |
+| 4       | A function that creates a new dog                                                    | 4-new_dog.c        |
+| 5       | A function that frees dogs                                                           | 5-free_dog.c       |
 
 ---
 
