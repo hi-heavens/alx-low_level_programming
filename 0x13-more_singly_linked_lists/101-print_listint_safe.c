@@ -37,7 +37,7 @@ size_t print_listint_safe(const listint_t *head)
 
 /**
 * looped_listint_len - Entry point
-* Description - A function that count the number of unique 
+* Description - A function that count the number of unique
 * nodes in a looped listint_t linked list
 * *@head: the function accepts an input saved into head
 * Return: Success (0)
