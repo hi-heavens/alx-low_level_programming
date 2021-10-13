@@ -1,19 +1,19 @@
-# 0x08. C - Recursion
+# 0x13. C - More singly linked lists
 
-| Task no | Description                                                                          | File name               |
-| ------- | ------------------------------------------------------------------------------------ | ----------------------- |
-| 0       | A function that prints a string, followed by a new line                              | 0-puts_recursion.c      |
-| 1       | A function that prints a string in reverse                                           | 1-print_rev_recursion.c |
-| 2       | A function that returns the length of a string                                       | 2-strlen_recursion.c    |
-| 3       | A function that returns the factorial of a given number                              | 3-factorial.c           |
-| 4       | A function that returns the value of x raised to the power of y                      | 4-pow_recursion.c       |
-| 5       | A function that returns the natural square root of a number                          | 5-sqrt_recursion.c      |
-| 6       | A function that returns 1 if the input integer is a prime number, otherwise return 0 | 6-is_prime_number.c     |
-| 7       | A function that returns 1 if a string is a palindrome and 0 if not                   | 100-is_palindrome.c     |
-| 8       | A function that compares 2 strings                                                   | 101-wildcmp.c           |
+| Task no | Description                                                                    | File name           |
+| ------- | ------------------------------------------------------------------------------ | ------------------- |
+| 0       | A function that prints all the elements of a listint_t list                    | 0-print_listint.c   |
+| 1       | A function that returns the number of elements in a linked listint_t list      | 1-listint_len.c     |
+| 2       | A function that adds a new node at the beginning of a listint_t list           | 2-add_nodeint.c     |
+| 3       | A function that adds a new node at the end of a listint_t list                 | 3-add_nodeint_end.c |
+| 4       | A function that frees a listint_t list                                         | 4-free_listint.c    |
+| 5       | A function that frees a listint_t list                                         | 5-free_listint2.c   |
+| 6       | A function that deletes the head node of a listint_t linked list...            | 6-pop_listint.c     |
+| 7       | A function that returns the nth node of a listint_t linked list                | 7-get_nodeint.c     |
+| 8       | A function that returns the sum of all the data (n) of a listint_t linked list | 8-sum_listint.c     |
 
 ---
 
-> WE NEED TO GO..............DEEPER
+> "Mindset is everything. Once you believe you can achieve something, you most likely will."
 
 ---
