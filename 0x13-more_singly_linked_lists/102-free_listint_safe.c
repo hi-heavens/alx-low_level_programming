@@ -2,7 +2,7 @@
 /**
 * free_listint_safe - Entry point
 * Description - A function that frees a listint_t list
-* *@n: the function accepts an input saved into n
+* *@h: the function accepts an input saved into h
 * Return: Success (0)
 */
 size_t free_listint_safe(listint_t **h)
