@@ -11,6 +11,8 @@
 | 6       | A function that deletes the head node of a listint_t linked list...            | 6-pop_listint.c          |
 | 7       | A function that returns the nth node of a listint_t linked list                | 7-get_nodeint.c          |
 | 8       | A function that returns the sum of all the data (n) of a listint_t linked list | 8-sum_listint.c          |
+| 9       | A function that inserts a new node at a given position                         | 9-insert_nodeint.c       |
+| 10      | A function that deletes the node at index index of a listint_t linked list     | 10-delete_nodeint.c      |
 | 11      | A function that reverses a listint_t linked list                               | 100-reverse_listint.c    |
 | 12      | A function that prints a listint_t linked list                                 | 101-print_listint_safe.c |
 | 13      | A function that frees a listint_t list                                         | 102-free_listint_safe.c  |
