@@ -26,7 +26,7 @@ int create_file(const char *filename, char *text_content)
 		return (-1);
 
 	/* Writing the already read file */
-	toWrite = write(STDOUT_FILENO, text_content, contentLen);
+	toWrite = write(toOpen, text_content, contentLen);
 
 	/* To check if there is an error of some sort */
 	if (toWrite == -1)
