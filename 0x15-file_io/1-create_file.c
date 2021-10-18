@@ -15,8 +15,14 @@ int create_file(const char *filename, char *text_content)
 	if (filename == NULL)
 		return (-1);
 
-	while (text_content[contentLen] != '\0')
+	if (text_content == NULL)
+	{
+		contentLen = 0;
+	} else
+	{
+		while (text_content[contentLen] != '\0')
 		contentLen++;
+	}
 
 	/* Opening of the file */
 	toOpen = open(filename, O_CREAT | O_RDWR | O_TRUNC, 0600);
