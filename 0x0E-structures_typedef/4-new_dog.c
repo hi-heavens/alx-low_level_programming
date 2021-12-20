@@ -1,5 +1,5 @@
 #include "dog.h"
-#include <stdio.h>
+#include <stdlib.h>
 /**
 * new_dog - Entry point
 * Description - A function that takes a pointer of a struct dog
