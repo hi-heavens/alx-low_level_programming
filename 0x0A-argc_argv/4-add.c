@@ -7,34 +7,35 @@
 * *@argv: the function accepts an input saved into argv
 * Return: Success (0)
 */
-int main(int argc, char *argv[])
+int main(int argc, char **argv)
 {
-	int count = 1;
-	int sum = 0;
-
-	if (argc < 1)
+	if (argc == 1)
+		printf("%d\n", 0);
+	else
 	{
-		printf("%s", "Error\n");
-		return (1);
-	}
+		int i = 1, sum = 0;
 
-	while (count < argc)
-	{
-		char *argument = argv[count];
-
-		if (!atoi(argument))
+		while (i < argc)
 		{
-			printf("%s\n", "Error");
-			return (1);
-		}
-		else
-		{
-			sum += atoi(argument);
-		}
-		count++;
-	}
+			int j = 0;
 
-	printf("%d\n", sum);
+			while (argv[i][j] != '\0')
+			{
+
+				if (!isdigit(argv[i][j]))
+				{
+					printf("Error\n");
+					return (1);
+				}
+				j++;
+			}
+
+			sum += atoi(argv[i]);
+
+			i++;
+		}
+		printf("%d\n", sum);
+	}
 
 	return (0);
 }
