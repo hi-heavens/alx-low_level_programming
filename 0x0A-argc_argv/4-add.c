@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <ctype.h>
 /**
 * main - Entry point
 * Description - A program that adds positive numbers
