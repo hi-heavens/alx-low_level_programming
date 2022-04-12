@@ -1,55 +1,79 @@
 #include "dog.h"
-#include <stdlib.h>
+int _strlen(char *s);
 /**
-* new_dog - Entry point
-* Description - A function that takes a pointer of a struct dog
-* *@name: the function accepts a pointer input saved into name
-* *@age: the function accepts an input saved into age
-* *@owner: the function accepts a pointer input saved into owner
-* Return: a struct pointer
-*/
+ * new_dog - Function entry
+ * Description: A function that creates a new dog
+ * @name: the name of the dog
+ * @age: the age of the dog
+ * @owner: the owner of the dog
+ * Return: a pointer to the base location
+ */
+
 dog_t *new_dog(char *name, float age, char *owner)
 {
-    dog_t *p_dott;
-    int i, j;
+	dog_t *my_dog;
+	int name_len = 0, owner_len = 0, i = 0;
 
-    p_dott = malloc(sizeof(*p_dott));
+	my_dog = malloc(sizeof(*my_dog));
 
-    if (p_dott == NULL)
-    {
-        free(p_dott);
-        return NULL;
-    }
-    for (i = 0; name[i]; i++)
-        ;
-    p_dott->name = malloc(i++);
-    for (i = 0; owner[i]; i++)
-        ;
-    p_dott->owner = malloc(i++);
-
-
-    if (!(p_dott->name) || !(p_dott->owner))
+	if (my_dog == NULL || !(name) || age < 0 || !(owner))
 	{
-		free(p_dott->owner);
-		free(p_dott->name);
-		free(p_dott);
+		free(my_dog);
 		return (NULL);
 	}
 
-    for (j = 0; j < i; j++)
-    {
-        p_dott->name[j] = name[j];
-    }
-    p_dott->name[j] = '\0';
+	(*my_dog).age = age;
 
-    p_dott->age = age;
+	name_len = _strlen(name);
+	owner_len = _strlen(owner);
 
-    for (j = 0; j < i; j++)
-    {
-        p_dott->owner[j] = owner[j];
-    }
-    p_dott->owner[j] = '\0';
+	(*my_dog).name = malloc(name_len + 1);
+	(*my_dog).owner = malloc(owner_len + 1);
+
+	if ((*my_dog).name == NULL || (*my_dog).owner == NULL)
+	{
+		free(my_dog);
+		free((*my_dog).name);
+		free((*my_dog).owner);
+		return (NULL);
+	}
+
+	while (i < name_len)
+	{
+		(*my_dog).name[i] = name[i];
+		i++;
+	}
+	(*my_dog).name[i] = '\0';
+
+	i = 0;
+
+	while (i < owner_len)
+	{
+		(*my_dog).owner[i] = owner[i];
+		i++;
+	}
+	(*my_dog).owner[i] = '\0';
+
+	return (my_dog);
+}
 
 
-    return (p_dott);
+/**
+ * _strlen - Entry point
+ * Description - A function that returns the length of a string
+ * *@s: the function accepts an input saved into s
+ * Return: Always 0 (Success)
+ */
+int _strlen(char *s)
+{
+	int i = 0;
+	int length = 0;
+
+	while (s[i] != '\0')
+	{
+		length += 1;
+		i++;
+	}
+
+	return (length);
 }
