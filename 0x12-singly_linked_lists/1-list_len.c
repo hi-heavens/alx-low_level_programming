@@ -1,22 +1,22 @@
 #include "lists.h"
-#include <stdio.h>
 
 /**
- * list_len - returns the number of elements in a list
- * @h: head of the list
- * Return: number of elements.
+ * list_len - Function entry
+ * Description: A function that returns the number of elements
+ * ...in a linked list_t list
+ * @h: address of a struct data type
+ * Return: number of elements
  */
 size_t list_len(const list_t *h)
 {
-	const list_t *temp;
-	size_t n;
+	unsigned int i = 0;
 
-	n = 0;
-	temp = h;
-	while (temp != 0)
+
+	while (h != NULL)
 	{
-		temp = temp->next;
-		n++;
+		h = h->next;
+		i++;
 	}
-	return (n);
+
+	return (i);
 }

@@ -1,16 +1,11 @@
-# 0x0E. C - Structures, typedef
+# 0x12. C - Singly linked lists
 
-| Task no | Description                                                   | File name     |
-| ------- | ------------------------------------------------------------- | ------------- |
-| 0       | A Define a new type struct dog with the following elements    | dog.h         |
-| 1       | A function that initialize a variable of type struct dog      | 1-init_dog.c  |
-| 2       | A function that prints a struct dog                           | 2-print_dog.c |
-| 3       | Define a new type dog_t as a new name for the type struct dog | dog.h         |
-| 4       | A function that creates a new dog                             | 4-new_dog.c   |
-| 5       | A function that frees dogs                                    | 5-free_dog.c  |
+## Single Singly Linked List
 
----
-
-> TRUST THE PROCESS..............
-
----
+| s/n | Description                                                            | name             |
+| --- | ---------------------------------------------------------------------- | ---------------- |
+| 0   | A function that prints all the elements of a list_t list               | 0-print_list.c   |
+| 1   | A function that returns the number of elements in a linked list_t list | 1-list_len.c     |
+| 2   | A function that adds a new node at the beginning of a list_t list      | 2-add_node.c     |
+| 3   | A function that adds a new node at the end of a list_t list            | 3-add_node_end.c |
+| 4   | A function that frees a list_t list                                    | 4-free_list.c    |
